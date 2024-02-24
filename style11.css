@@ -3940,7 +3940,7 @@ li {
   right: 0%;
   bottom: 0%;
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 
 #about {
@@ -6486,8 +6486,6 @@ li {
   font-display: swap;
 }
 
-
-
 .oldwelcome-text {
   flex-direction: column;
   justify-content: center;
@@ -6564,4 +6562,9 @@ html.w-mod-js [data-ix="hero-title-top"] {
   left: 50%;
   transform: translateX(-50%);
   opacity: 0.02;
+}
+
+
+body{
+  overflow-x: hidden !important;
 }
